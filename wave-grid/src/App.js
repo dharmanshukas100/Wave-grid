@@ -4,8 +4,7 @@ import "./App.css";
 import "../src/index.css";
 
 function App() {
-  const [appBackground, setAppBackground] = useState("#000000"); // Initial background color
-
+  const [appBackground, setAppBackground] = useState("#000000");
   return (
     <div
       className="App"
