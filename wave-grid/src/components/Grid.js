@@ -53,7 +53,7 @@ const Grid = ({ setAppBackground }) => {
       const newStart = prevStart + direction;
       if (newStart < 0 || newStart >= cols - 5) {
         setDirection(-direction); // Reverse direction
-        setBaseHue((prevHue) => (prevHue + 4) % 360); // Adjust hue incrementally
+        setBaseHue((prevHue) => (prevHue + 3) % 360); // Adjust hue incrementally
         return prevStart;
       }
       return newStart;
