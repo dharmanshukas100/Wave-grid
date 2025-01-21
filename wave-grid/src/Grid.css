@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+}
+
+.row {
+  display: flex;
+  /* gap: 2px; */
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333232;
+}
+
+.out-box {
+  border: 10px solid #333232;
+  display: inline-block;
+}
