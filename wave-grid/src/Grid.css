@@ -19,3 +19,29 @@
   border: 10px solid #333232;
   display: inline-block;
 }
+
+
+.controls {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls label {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #a0d4fa;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.controls input {
+  margin-left: 13px;
+  width: 50px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px;
+  border: none;
+}
