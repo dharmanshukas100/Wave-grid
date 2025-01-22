@@ -95,3 +95,5 @@ Project Link: https://github.com/your-username/wave-grid
 
 
 
+Feel free to replace placeholders like `your-username`, `your-demo-link`, `your-twitter-handle`, and `your-email@example.com` with your actual information.
+Feel free to replace placeholders like `your-username`, `your-demo-link`, `your-twitter-handle`, and `your-email@example.com` with your actual information.
