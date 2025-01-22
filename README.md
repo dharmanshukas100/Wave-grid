@@ -89,11 +89,6 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 
 Contact
-Your Dharmanshu Kashyap - https://www.linkedin.com/in/dharmanshukashyap/ - Dharmanshukashyap30@gmail.com
+Dharmanshu Kashyap - @https://www.linkedin.com/in/dharmanshukashyap/ - Dharmanshukashyap30@gmail.com
 
 Project Link: https://github.com/your-username/wave-grid
-
-
-
-Feel free to replace placeholders like `your-username`, `your-demo-link`, `your-twitter-handle`, and `your-email@example.com` with your actual information.
-Feel free to replace placeholders like `your-username`, `your-demo-link`, `your-twitter-handle`, and `your-email@example.com` with your actual information.
