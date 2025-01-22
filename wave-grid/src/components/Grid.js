@@ -78,7 +78,7 @@ const Grid = ({ setAppBackground }) => {
   };
 
   return (
-    <div>
+    <div className="grid-input">
       <div className="controls">
         <label>
           Rows:

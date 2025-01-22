@@ -1,6 +1,9 @@
 .grid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  width: 100%;
+  max-width: 800px;
+  /* gap: 2px; */
+  margin: 0 auto;
   /* gap: 5px; */
 }
 
@@ -10,20 +13,22 @@
 }
 
 .cell {
-  width: 25px;
-  height: 25px;
+  background-color: #000;
   border: 2px solid #333232;
+  padding: 10px;
 }
 
 .out-box {
   border: 10px solid #333232;
   display: inline-block;
+  margin-top: 49px;
 }
 
 
 .controls {
-  margin: 10px 0;
   display: flex;
+  flex-wrap: wrap;
+  margin: 10px 50px;
   gap: 10px;
   align-items: center;
   justify-content: center;
@@ -37,11 +42,57 @@
   padding: 6px;
 }
 
-.controls input {
+.controls input[type="number"] {
   margin-left: 13px;
   width: 50px;
   text-align: center;
   border-radius: 4px;
   padding: 6px;
   border: none;
+}
+
+.grid-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .controls {
+    justify-content: space-between;
+  }
+
+  
+  .controls input[type="number"] {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  
+  .controls input[type="number"] {
+    width: 100px;
+  }
+
+  .grid {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cell{
+      padding: 4px;
+  }
 }
